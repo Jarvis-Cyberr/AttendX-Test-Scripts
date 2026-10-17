@@ -1,4 +1,4 @@
-﻿from selenium import webdriver
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 def test_login():
@@ -9,7 +9,7 @@ def test_login():
     driver.find_element(By.ID, "loginBtn").click()
     assert "Dashboard" in driver.title
     driver.quit()
-    print("Login test PASSED")
+    print("Login test PASSED - dashboard title verified")
 
 if __name__ == "__main__":
     test_login()
