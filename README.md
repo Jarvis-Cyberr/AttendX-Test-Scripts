@@ -12,3 +12,6 @@ Automation test scripts for the AttendX Student Attendance App.
 ## Run
 - python test_login.py
 - python test_attendance.py
+
+   ## Author
+   Shashank - D24IT151
